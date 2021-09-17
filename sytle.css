@@ -1,0 +1,177 @@
+/* Front-end background */
+html{
+    background-color: #cc9900;
+}
+/* end */
+
+/* my personal img*/
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    padding: 30px;
+    
+}
+
+.Personal_image{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    padding: 20px;
+    margin: auto;
+}
+
+ /*--- Style --- */
+.My_introduction{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: burlywood;
+}
+.My_introduction h2{
+    color:black;
+    font-size: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.My_introduction p{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+
+/* end */
+
+/* Content */
+
+.My_interest_layout{
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    background-color: #999966;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.Introduction_game{
+    margin: 0 16px;
+    border: 2px solid black;
+    padding: 10px;
+    flex: 1; 
+}
+
+.Introduction_music{
+    margin: 0 16px;
+    border: 2px solid black;
+    padding: 10px;
+    flex: 1;
+}
+
+.Introduction_theperson{
+    margin: 0 16px;
+    border: 2px solid black;
+    padding: 10px;
+    flex: 1; 
+}
+
+/* end */
+
+/* Responsive Feature */
+
+/* Mobile + Small Tablet*/
+            /* màn hình dọc  */
+@media only screen and (max-width: 600px) {
+    .Personal_image{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .My_interest_layout{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .Introduction_game{
+        flex: 1;
+        margin: 16px 0;
+    }
+    .Introduction_music{
+        flex: 1;
+        margin: 16px 0;
+    }
+    .Introduction_theperson{
+        flex : 1;
+        margin: 16px 0 ;
+    }
+    img.CEO{
+        margin: auto;
+        padding: 0;
+        display: block;
+    }
+}
+            /* màn hình ngang */
+@media only screen and (max-height: 600px) {
+    .Personal_image{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        }
+    .My_interest_layout{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .Introduction_game{
+        flex: 1;
+         margin: 16px 0;
+    }
+    .Introduction_music{
+        flex: 1;
+        margin: 16px 0;
+    }
+    .Introduction_theperson{
+        flex : 1;
+        margin: 16px 0 ;
+    }
+    img.CEO{
+        margin: auto;
+        padding: 0;
+        display: block;
+    }
+}
+
+/* end */
+
+
+/* big tablet */
+@media only screen and (max-width: 1024px){
+    .Personal_image{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        justify-content: space-evenly;
+    }
+    .My_interest_layout{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .Introduction_game{
+        flex: 1;
+         margin: 16px 0;
+    }
+    .Introduction_music{
+        flex: 1;
+        margin: 16px 0;
+    }
+    .Introduction_theperson{
+        flex : 1;
+        margin: 16px 0 ;
+    }
+    img.CEO{
+        margin: auto;
+        padding: 0;
+        display: block;
+    }
+}
